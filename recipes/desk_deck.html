@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe:Spotify Desk.Deck</title>
+</head>
+<body>
+    <h1>The Desk Pet Robot</h1>
+    <p>Create a minimalist desk gadget that displays your currently playing Spotify song, artist, album cover, date, and weather on a low-power e-Paper screen</p>
+    <figure><figcaption>Spotify e-Paper Desk deck</figcaption><img src="../images/desk_deck.webp" alt="Photo of the Spotify Deck" height="200px" width="400px"></figure>
+    <h2>Ingredients</h2>
+    <ul>
+        <li>Raspberry Pi 4</li>
+        <li>2.7-inch Waveshare e-Paper display</li>
+        <li>Home Assistant</li>
+        <li>Spotify developer account and API credentials</li>
+        <li>Python</li>
+        <li>Pillow (PIL) imaging library</li>
+        <li>Requests library</li>
+        <li>Waveshare e-Paper Python library</li>
+        <li>Webhook utility</li>
+        <li>Fonts and album artwork</li>
+    </ul>
+    <h2>Instructions</h2>
+    <ol>
+        <li><b>Prepare the workstation:</b> Set up the Raspberry Pi and connect the e-Paper display</li>
+        <li><b>Configure the music source:</b> Set up Home Assistant and integrate Spotify</li>
+        <li><b>Create the trigger: </b>Configure an automation that detects when the current song changes</li>
+        <li><b>Set up the messenger:</b> Create a webhook endpoint on the Raspberry Pi to receive automation requests
+        <li><b>Gather the ingredients:</b>Use Python to retrieve song details, artist information, album artwork, and weather data through Home Assistant's API</li>
+        <li><b>Prepare the layout:</b> Use Pillow to draw the text, weather information, and album cover onto an image</li>
+        <li><b>Plate the result</b>Render the completed image on the e-Paper display and put the display to sleep to save power</li>
+        <li><b>Taste your creation:</b>Play different songs and verify that the display updates when the track changes</li>
+    </ol>
+<a href="https://dev.to/kikeonline/spotify-desk-widget-with-a-raspberry-pi-and-e-paper-display-2gdl"><b>Credits:</b> Enrique Flores</a><br>
+<a href="../index.html">Return to main page</a></body>
+</body>
+</html>S
